@@ -1,0 +1,28 @@
+How many years of Web development experience do you have?
+
+
+How many years of JavaScript experience do you have?
+
+
+How many years of HTML5 experience do you have?
+
+
+How man years of CSS3 experience do you have?
+
+
+How do you Ruby on Rails experience? If so, how many years?
+
+
+What are your opinions on Agile software development?
+
+
+Do you have experience with Paper Prototyping? If so, how do you feel about it?
+
+
+What are you looking for in a job?
+
+
+Are you legal to work in the US?
+
+
+When can you start?
