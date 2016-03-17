@@ -21,7 +21,7 @@ twofold:
 1. Fork this repository
 2. In the *markup* directory, implement a responsive landing page, that matches the mobile mockups you created in part 1, with HTML, CSS and any frameworks of your choosing (SASS, less, PostCSS, bootstrap, foundation, etc.)
 3. In the *pick_me* directory
-   * Add a file pick_me.txt which describes why we should choose you as a designer developer.  It would be nice to stand out, but a fallback would be typical cover letter type verbiage.  Include why you think our internship is interesting to you.
+   * Add a file pick_me.txt which describes why we should choose you as a designer developer.  It would be nice to stand out, but a fallback would be typical cover letter type verbiage.
    * Fill out the `questionnaire.txt` and commit it
    * Anything else we should know.  For example, portfolio, oper source projects, one of your preferred development tools (editor, desktop app, etc.) and why you use it, etc.
 
