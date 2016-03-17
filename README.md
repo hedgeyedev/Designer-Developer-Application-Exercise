@@ -20,7 +20,7 @@ twofold:
 
 1. Fork this repository.
 2. Go into the *design* directory and follow the instructions in the README.md.
-3. In the *markup* directory, implement a responsive landing page, that matches the mobile mockups you created in part 1, with HTML, CSS and any frameworks of your choosing (SASS, less, PostCSS, bootstrap, foundation, etc.).
+3. In the *markup* directory, implement a responsive landing page, that matches the mobile mockups you created in step 2, with HTML, CSS and any frameworks of your choosing (SASS, less, PostCSS, bootstrap, foundation, etc.).
 4. In the *pick_me* directory
    * Add a file pick_me.txt which describes why we should choose you as a designer developer.  It would be nice to stand out, but a fallback would be typical cover letter type verbiage.
    * Fill out the `questionnaire.txt` and commit it.
