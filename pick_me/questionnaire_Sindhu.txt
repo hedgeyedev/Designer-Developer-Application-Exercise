@@ -1,0 +1,58 @@
+How many years of Web development experience do you have?
+
+> 10
+
+
+
+How many years of JavaScript experience do you have?
+
+3
+
+
+
+How many years of HTML5 experience do you have?
+
+
+
+5
+
+How man years of CSS3 experience do you have?
+5
+
+
+
+
+How do you Ruby on Rails experience? 
+None
+
+If so, how many years?
+
+
+
+
+What are your opinions on Agile software development?
+
+
+Do you have experience with Paper Prototyping? 
+yes
+
+If so, how do you feel about it?
+
+
+
+I have always used paper prototyping on brainstorming sections, before working on any site designs.  For me, it is easier to get the feedback, make changes, and coming up with a rough prototype of the interface.
+
+What are you looking for in a job?
+
+
+
+I am looking for the opportunity to use and enhance the skills that I have developed over the years, where I can continue to learn, take on additional responsibilities, and contribute as much of value as I can.
+
+Are you legal to work in the US?
+
+yes
+
+
+When can you start?
+
+4/1/2016
