@@ -1,0 +1,21 @@
+/* container overrides */
+.container-fluid {
+	margin: auto;
+	max-width: 940px;
+
+	&.container-small {
+		max-width: 780px;
+	}
+}
+
+/* sections */
+section {
+	position: relative;
+	padding: 4em 0;
+
+	&.dark {
+		background-color: $color-secondary;
+		color: #fff;
+		padding: 3em 0;
+	}
+}

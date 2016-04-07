@@ -1,0 +1,47 @@
+.bio {
+	text-align: left;
+	margin-bottom: 3em;
+
+	.bio-image {
+		text-align: center;
+		margin-bottom: 1em;
+
+		img {
+			width: 135px;
+			border-radius: 50%;
+		}
+	}
+
+	@include break-sm {
+		@include flexbox;
+		.bio-image {
+			@include flex(0 0 140px);
+			margin-right: 1em;
+		}
+
+		h3 {
+			text-align: left;
+		}
+
+		p {
+			font-size: .777em;
+		}
+	}
+
+	//align right odd bios
+	&:nth-child(odd){
+		@include break-sm {
+			text-align: right;
+
+			h3 {
+				text-align: right;
+			}
+
+			.bio-image {
+				@include order(2);
+				margin-right: 0;
+				margin-left: 1em;
+			}
+		}
+	}
+} //eof .bio

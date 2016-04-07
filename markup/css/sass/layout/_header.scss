@@ -1,0 +1,140 @@
+header {
+	height: $header-height;
+	background: $color-secondary;
+	color: #fff;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	@include break-max-sm {
+		.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+} //eof .header
+
+.logo {
+	padding: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+
+	@include break-sm {
+		width: 20%;
+		padding: 0;
+	}
+
+	a {
+		display: inline-block;
+	}
+
+} //eof .logo
+
+.mobile-menu-toggle {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	margin-left: -5px;
+	text-align: right;
+
+	@include break-sm {
+		display: none;
+	}
+
+	a {
+		color: #fff;
+		display: inline-block;
+		vertical-align: middle;
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+		text-align: center;
+		line-height: 40px;
+
+		&:hover,
+		&.active {
+			color: $color-primary;
+		}
+	}
+	
+} //eof .mobile-menu-toggle
+
+nav.main-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.85);
+
+	@include break-sm {
+		position: relative;
+		display: inline-block !important;
+		background: transparent;
+		width: 80%;
+		margin-left: -5px;
+		text-align: right;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+
+		@include break-sm {
+			display: inline-block;
+			vertical-align: middle;
+
+		}
+	}
+
+	li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		@include break-sm {
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+	}
+
+	a {
+		color: #fff;
+		display: block;
+		padding: 1em;
+		font-size: 14px;
+		text-transform: uppercase;
+
+		&:hover {
+			background: transparent;
+			color: $color-primary;
+		}
+
+		@include break-sm {
+			display: block;
+			line-height: 30px;
+			padding-left: 0;
+			padding-right: 0;
+			height: $header-height;
+			-webkit-transition: border-color .25s ease-in-out;
+          	transition: border-color .25s ease-in-out;
+			border-bottom: 5px solid transparent;	
+		}
+	}
+
+	li.active {
+		a {
+			color: $color-primary;
+
+			@include break-sm {
+				color: #fff;
+				border-color: #fff;
+			}
+		}
+	}
+} //eof .main-menu

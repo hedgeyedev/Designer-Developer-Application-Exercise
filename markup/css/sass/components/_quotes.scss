@@ -1,0 +1,69 @@
+.quote {
+	blockquote {
+		padding: .5em;
+		margin: 0;
+		font-weight: 300;
+		font-size: 1.388em;
+		border-left: none;
+		position: relative;
+
+		padding-left: calc(25px + .5em);
+		@include break-sm {
+			padding-left: calc(40px + .5em);
+		}
+
+		&:before {
+			content: '\201C';
+			font-size: 80px;
+			font-family: $font-secondary;
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-top: -10px;
+
+			@include break-sm {
+				font-size: 125px;
+				margin-top: -20px;
+			}
+		}
+
+
+
+		cite {
+			display: block;
+			text-align: right;
+			font-style: normal;
+			font-size: .6em;
+			font-weight: bold;
+			margin-top: 1em;
+
+			&:before {
+				content: '-\00a0';
+			}
+		}
+	} //eof blockquote
+
+	//quote with image variation
+	&.image-quote {
+		.image-quote-image {
+			text-align: center;
+		}
+
+		@include break-sm {
+			@include flexbox;
+			.image-quote-image {
+				@include flex(0 0 130px);
+				@include order(2);
+				@include align-self(center);
+				margin-left: 1em;
+			}
+
+			blockquote {
+				@include flexbox;
+				@include flex-direction(column);
+			}
+		}
+	}
+
+} //eof .quote
+

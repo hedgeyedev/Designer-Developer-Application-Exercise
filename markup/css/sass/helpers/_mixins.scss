@@ -1,0 +1,36 @@
+/* Media Query Mixins */
+@mixin break-max-sm {
+  @media (max-width: #{$break-sm - 1}) {
+    @content;
+  }
+}
+
+@mixin break-max-md {
+  @media (max-width: #{$break-md - 1}) {
+    @content;
+  }
+}
+
+@mixin break-max-lg {
+  @media (max-width: #{$break-lg - 1}) {
+    @content;
+  }
+}
+
+@mixin break-sm {
+  @media (min-width: #{$break-sm}) {
+    @content;
+  }
+}
+
+@mixin break-md {
+  @media (min-width: #{$break-md}) {
+    @content;
+  }
+}
+
+@mixin break-lg {
+  @media (min-width: #{$break-lg}) {
+    @content;
+  }
+}
