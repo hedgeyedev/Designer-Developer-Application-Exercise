@@ -1,0 +1,14 @@
+// styles.scss
+.testing {
+  width: percentage(5/7);
+}
+
+body {
+	background-color: red;
+}
+
+ul {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
