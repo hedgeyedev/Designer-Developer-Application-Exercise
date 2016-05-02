@@ -1,28 +1,48 @@
 How many years of Web development experience do you have?
 
+I’ve been developing for 6 years now. I started back in high school freelancing on oDesk.com (now upwork.com) starting with simple PSD to HTML/CSS conversions. I’ve been developing professionally for Robert Half for the last 2 years and my skills have grown tremendously since. 
+
 
 How many years of JavaScript experience do you have?
+
+3 years so far, mostly using jQuery for DOM manipulation and simple functions. But recently have been diving into more in-depth libraries and frameworks such as Angular.js and the like. 
 
 
 How many years of HTML5 experience do you have?
 
+6 years.
 
-How man years of CSS3 experience do you have?
+
+How many years of CSS3 experience do you have?
+
+Since it came out in the early 2000’s! About 4-5 years taking advantage of CSS3 features.
+
 
 
 How do you Ruby on Rails experience? If so, how many years?
 
+Ruby on Rails is something i’ve been learning recently, so my experience is < 1 year. I have however successfully deployed my own ruby app (on my windows pc ugh) and set up my own database migrations and it’s something I definitely want to learn more about and gain more experience with under some professional guidance. 
+
 
 What are your opinions on Agile software development?
+
+To be honest I am not super familiar with the practices as I’m not a software developer per se but after a bit of research I can definitely agree with and get behind their principles. It seems like an effective and efficient way to develop with a team in general and I would love to learn more about it.
 
 
 Do you have experience with Paper Prototyping? If so, how do you feel about it?
 
+I currently work from Photoshop PSD’s that are set up nicely for me and code from there, but I have defiantly paper prototyped in the past especially when trying to work my head around backend databases. I feel with front-end I can come up with most UI visuals in my head but 
+
 
 What are you looking for in a job?
 
+The #1 thing I am looking for in a job is potential for me to grow as a developer. In my quest to become the best developer I can be a job that can teach me and provide guidance for best practices and new technologies is a huge plus. My last job became very stagnant with no potential to become better as I mastered their work flow and I’m looking to keep advancing. 
 
-Are you legal to work in the US?
+
+Are you legal to work in the US? 
+Yes
 
 
 When can you start?
+
+Immediately
