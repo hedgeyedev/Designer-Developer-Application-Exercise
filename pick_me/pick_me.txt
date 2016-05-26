@@ -1,0 +1,14 @@
+Hello,
+
+  My name is Andrei Bourtsev and I am a digital designer with over ten years of progressive experience in graphic design, full color print production and interactive web development. I like to apply my creative and technical skills in as broad range as possible and enjoy being challenged. I’m would like to thank you for reviewing my profile for potential Designer Developer position at Hegdeye. My online portfolio with examples of previous work can be viewed at http://andreibourtsev.com/portfolio
+
+
+I have received this app exercise test last week from my recruiter and tried to complete it sooner than later, however, realizing it takes more time than available in the process, so I’m presenting what I was able to come up so far. 
+
+In my submission I’m including mobile view mockup “HE_Conference_Mobile_Andrei.pdf” in portrait mode (landscape design is identical plus extra width) along with Bootstrap 3 code in requested GitHub folders. 
+
+While I realize my design ideally needed to be coded for all possible mobile devices I have set up for iPhone 6 Plus only to demonstrate live version of my design. If the time permits I would adjust it to other required devices, such as other phone versions and tablets. However, it does look identical to provided desktop layout in major browsers. Please let me know if you have any questions, comments or concerns with my submission and I would be glad to discuss them.
+
+Kind regards,
+- Andrei
+203-297-7963
