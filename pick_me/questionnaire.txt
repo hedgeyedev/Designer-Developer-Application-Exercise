@@ -1,28 +1,32 @@
 How many years of Web development experience do you have?
-
+Over 10+, however mostly front end.
 
 How many years of JavaScript experience do you have?
-
+About 5, however i mostly worked with libraries.
 
 How many years of HTML5 experience do you have?
-
+Since it was updated with new features from HTML4.
 
 How man years of CSS3 experience do you have?
-
+Since it was implemented from CSS2.
 
 How do you Ruby on Rails experience? If so, how many years?
-
+None, although it is on my "Learn" list.
 
 What are your opinions on Agile software development?
-
+Despite the name its not always fast, especially when some mistakes happen on the team due to experiments/new skills aquisition, etc so it tends to slow things down, although initially. However, sometimes slower is a sound approach to solid results, IMO.
 
 Do you have experience with Paper Prototyping? If so, how do you feel about it?
 
+I do have some, indeed, starting with napkins. It does save time and resources, but sometimes its easier to prototype simple designs utilizing templates.
+
 
 What are you looking for in a job?
+Creative and challenging projects, learning new skills.
 
 
 Are you legal to work in the US?
-
+Yes, US Citizen.
 
 When can you start?
+ASAP.
