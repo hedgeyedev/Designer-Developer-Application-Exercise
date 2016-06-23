@@ -4,8 +4,219 @@
   <meta charset="UTF-8">
   <title>Hedgeye</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
-  <h1>test</h1>
+  <nav class="nav nav--fixed">
+    <div class="container">
+      <ul>
+        <li class="nav__brand">Hedgeye</li>
+        <li class="nav__item--active"><a href="#">The Conference</a></li>
+        <li class="nav__item"><a href="#">The Agenda</a></li>
+        <li class="nav__item"><a href="#">The Speakers</a></li>
+        <li class="nav__item"><a href="#">About Hedgeye</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="panel--photo">
+    <div class="container">
+      <div class="panel__logo">
+        <img class="img-responsive" src="img/macrocosm2016-logo-white.png" alt="macrocosm logo">
+        <h3 class="panel__byline">The Dock Debates</h3>
+      </div>
+      <div class="panel__info">
+        <p class="panel__lead">Interact with some of the
+                              greatest minds in investing</p>
+        <p class="panel__date">
+          May 10, 2016  <span>1pm - 6:30pm </span>
+        </p>
+        <p class="panel__date">
+          The Loading Dock <span>Stamford, Ct</span>
+        </p>
+      </div>
+      <button class="button--primary">Resigter Now</button>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="container">
+      <h1 class="panel__title">The Conference</h1>
+      <p class="panel__description"><span class="emphasis">“The Dock Debates”</span> is Hedgeye’s
+        first annual conference to showcase premier thought leaders across the globe.
+          A series of speakers and debates will illuminate key topics and themes that will
+          impact investors over the near and longer term.
+          Hedgeye’s CEO Keith McCullough will serve as moderator to the 30 minute debates –
+          to both support and challenge discussion – and 15 minutes will be allotted for Q&A
+          from the conference attendees. </p>
+    </div>
+  </section>
+    <section class=panel--alt>
+      <div class="container">
+      <div class="row">
+        <blockquote class="panel__quote col-md-6 col-md-push-3" cite="http://">
+          I’m so pleased to be launching our first Hedgeye conference, yet another
+          forum to showcase best-in-class talent and ideas to make us all smarter and
+          better risk managers.
+          <cite>
+            Keith McCullough, Hedgeye CEO & Founder
+          </cite>
+        </blockquote>
+        <img class="img-responsive avatar" src="img/headshots-kmccullough.png" alt="Keith McCullough">
+      </div>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="container">
+        <div class="row">
+        <h1 class="panel__title">The Agenda</h1>
+        <ul class=" col-md-8 col-md-push-2 schedule">
+          <li class="schedule__item">
+            <span class="schedule__time">1<sup>PM</sup></span>
+            <p class="schedule__info--header">Check In</p>
+          </li>
+          <li class="schedule__item">
+            <span class="schedule__time">1:30 - 3<sup>PM</sup></span>
+            <p class="schedule__info--header">Energy – Keith Barnett</p>
+            <p class="schedule__info">What are the long term implications of US natural gas
+              production on energy prices?
+              What advantages and dislocations does US gas bring to the broader economy?
+            </p>
+          </li>
+          <li class="schedule__item--break">
+            <p> - Break and Refreshments - </p>
+          </li>
+          <li class="schedule__item">
+            <span class="schedule__time">3:15 - 4:45<sup>PM</sup></span>
+            <p class="schedule__info--header">China – Stephen Roach vs Jim Chanos </p>
+            <p class="schedule__info">
+              We can all agree that growth is slowing in China, but what are the
+              broader implications of this slowing?
+            </p>
+          </li>
+          <li class="schedule__item--break">
+            <p> - Break and Refreshments - </p>
+          </li>
+          <li class="schedule__item">
+            <span class="schedule__time">5 - 6:30<sup>PM</sup></span>
+            <p class="schedule__info--header">Demographics – Neil Howe</p>
+            <p class="schedule__info">
+              What’s the tail risk wagging the dog?
+            </p>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+    <section class="panel--photo__speaker">
+      <button class="button--primary center-button">Resigter Now</button>
+      <h1 class="panel__title--alt">The Speakers</h1>
+      <div class="container">
+        <div class="row row-padding">
+          <div class="speaker">
+            <div class="col-md-3">
+            <img class="speaker__avatar img-responsive" src="img/headshots-kbarnett.png" alt="Keith Barnett">
+            </div>
+            <div class="col-md-8">
+            <h3 class="speaker__name">KEITH BARNETT</h3>
+            <p class="speaker__info">Keith Barnett is Senior Vice President and Head of Fundamental Analysis
+              at Asset Risk Management. He has over 30 years of experience in the energy industry with
+              leading companies like Chevron, Columbia Gas Transmission, American Electric Power, and
+               Merrill Lynch Commodities. Keith held engineering, managerial and executive positions with
+             those companies in the areas of production, drilling, offshore platform design, natural gas
+             marketing, fuel procurement, trading and structuring analytics, corporate strategy and fundamental
+             analysis of energy markets.</p>
+            <p>Keithhas an engineering degree from Texas A&M University.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-padding">
+          <div class="speaker">
+            <div class="col-md-3 pull-right">
+            <img class="speaker__avatar img-responsive" src="img/headshots-sroach.png" alt="Stephen Roach">
+            </div>
+            <div class="col-md-8">
+            <h3 class="speaker__name right-text">STEPHEN ROACH</h3>
+            <p class="speaker__info">Stephen Roach is a senior fellow at Yale University’s Jackson
+              Institute of Global Affairs and a Senior Lecturer at Yale’s School of Management.
+              He was formerly Chairman of Morgan Stanley Asia and the firm’s Chief Economist for
+              the bulk of his 30-year career at Morgan Stanley, heading up a highly regarded team of
+              economists around the world. </p>
+            <p>Roach’s current teaching and research program focuses on the impacts of Asia on the
+              broader global economy. At Yale, he has introduced new courses for undergraduates and
+              graduate students on the “The Next China” and “The Lessons of Japan.” His writing and
+              research also addresses globalization, trade policy, the post-crisis policy architecture,
+              and the capital markets implications of global imbalances.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-padding">
+          <div class="speaker">
+            <div class="col-md-3">
+            <img class="speaker__avatar img-responsive" src="img/headshots-jchanos.png" alt="Jim Chanos">
+            </div>
+            <div class="col-md-8">
+            <h3 class="speaker__name">JIM CHANOS</h3>
+            <p class="speaker__info">Jim Chanos is the founder and managing partner of Kynikos Associates.
+              Throughout his investment career, Chanos has identified and sold short the shares of numerous
+              well-known corporate financial disasters; among them Baldwin-United, Commodore International,
+              Coleco, Integrated Resources, Boston Chicken, Sunbeam, Conseco and Tyco International.
+              His celebrated short-sale of Enron shares was dubbed by Barron's as "the market call of the
+              decade, if not the past fifty years." </p>
+            <p>He is currently a lecturer in finance at the Yale University School of Management,
+              Chanos, teaching a class on the history of financial fraud. Chanos received his B.A.
+              in economics and political science in 1980 from Yale University.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-padding">
+          <div class="speaker">
+            <div class="col-md-3 pull-right">
+            <img class="speaker__avatar img-responsive" src="img/headshots-nhowe.png" alt="Neil Howe">
+            </div>
+            <div class="col-md-8">
+            <h3 class="speaker__name right-text">NEIL HOWE</h3>
+            <p class="speaker__info">Neil Howe is a renowned authority on generations and social
+              change in America. An acclaimed author and speaker, he is the nation’s leading thinker on
+              today’s generations. Howe is founder and president of the consulting firm LifeCourse Associates,
+              where he develops and implements cutting-edge research, analysis, and consulting services to help
+              clients understand how generations impact marketing, workforce issues, and strategic planning. </p>
+            <p>A historian, economist, and demographer, Howe is also a recognized authority on
+              global aging, long-term fiscal policy, and migration. He is a senior associate to the Center
+              for Strategic and International Studies (CSIS) in Washington, D.C., where he helps direct the
+               CSIS Global Aging Initiative. He received his B.A. at U.C. Berkeley and holds graduate degrees
+               in economics (M.A., 1978) and history (M.Phil., 1979) from Yale University.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=panel--alt>
+      <button class="button--primary center-button">Resigter Now</button>
+      <div class="container">
+      <div class="row">
+        <blockquote class="panel__quote col-md-6 col-md-push-3" cite="http://">
+          I’ve been thoroughly impressed with the investment ideas coming from the Hedgeye research bench.
+          <cite>
+            Jim Chanos
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="container">
+        <h1 class="panel__title">About Hedgeye</h1>
+        <p class="panel__description">Hedgeye is a bold, trusted, no-excuses provider of actionable
+          investment research and a premier online financial media company.</p>
+          <p class="panel__description">Our all-star research team is unafraid of rocking the boat
+            and is committed to delivering the highest caliber investment ideas through rigorous
+            quantitative, bottom-up and macro analysis with an emphasis on timing.</p>
+            <img class="img-responsive center" src="img/macrocosm2016-logo-charcoal.png" alt="">
+            <div class="group">
+              <p class="highlighted">The Dock Debates</p>
+              <p class="highlighted">A Hedgeye Conference</p>
+            </div>
+            <p class="panel__description--alt">SEE YOU THERE!</p>
+      </div>
+    </section>
+  <script src="app.js"></script>
 </body>
 </html>

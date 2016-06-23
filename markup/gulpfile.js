@@ -5,6 +5,7 @@ var browserSync = require('browser-sync').create();
 var jshint = require('gulp-jshint');
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
+var browserify = require('browserify');
 
 gulp.task('styles', function(){
 	gulp.src('./sass/**/*.scss')
@@ -43,4 +44,4 @@ gulp.task('default', ['styles', 'browserSync','js'], function(){
 	gulp.watch('./app.js', ['js']);
 	gulp.watch('./*.html', browserSync.reload);
 	gulp.watch('./app.js', browserSync.reload);
-});	
+});

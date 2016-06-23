@@ -1,0 +1,61 @@
+// google font
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700';
+
+//fonts
+$font-stack: 'Open Sans', sans-serif;
+$main-font-color: #FEFEFE;
+$alt-font-color: #262729;
+$grey-font-color: #909090;
+
+//colors;
+$main-bg-color: #FEFEFE;
+$alt-bg-color: #262729;
+$text-highlight-bg: #DA7912;
+$text-highlight-lighten: rgba($text-highlight-bg, .7);
+
+//buttons
+$button-primary: #349EF4;
+
+
+//extends
+%nav-item-base{
+  display: inline-block;
+  text-transform: uppercase;
+  color: $main-font-color;
+  padding: 10px 20px;
+  font-size: .8em;
+  a{
+    color: $main-font-color;
+    text-decoration: none;
+  }
+}
+
+%panel-title-base{
+  text-align: center;
+  padding-top:30px;
+  text-transform: uppercase;
+}
+
+%description-base{
+  text-align: center;
+  padding-bottom: 30px;
+}
+//mixins
+@mixin full-background-photo($url, $fallback){
+  background: url($url) $fallback;
+  background-size: cover;
+}
+
+
+//helpers
+.right-text{
+  text-align: right;
+}
+.center{
+  margin: 0 auto;
+}
+.highlighted{
+  background-color: $text-highlight-bg;
+  display: inline-block;
+  text-transform: uppercase;
+}

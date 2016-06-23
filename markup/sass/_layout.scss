@@ -1,0 +1,28 @@
+// The grid system is bootstrap. Just wanted the grid.
+@import 'grid';
+
+//Margin for top fixed nav.
+body{
+  margin-top: 53px; //53px == height of nav
+}
+.nav--fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  //raise z-index if needed
+  z-index: 10;
+  width: 100%;
+}
+.center-button{
+  display: flex;
+  margin: 0 auto !important; //this is ok, whenever we need a button center is ok to use imporant
+  position: relative;
+  top: -30px;
+}
+.group{
+  p{
+    display: inline-block;
+    padding: 10px 5px;
+  }
+  text-align: center;
+}
