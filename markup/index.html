@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Hedgeye</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <body>
+  <header>
   <nav class="nav nav--fixed">
     <div class="container">
+      <a href="#" id="mobile-menu">MENU</a>
       <ul>
         <li class="nav__brand">Hedgeye</li>
         <li class="nav__item--active"><a href="#">The Conference</a></li>
-        <li class="nav__item"><a href="#">The Agenda</a></li>
-        <li class="nav__item"><a href="#">The Speakers</a></li>
-        <li class="nav__item"><a href="#">About Hedgeye</a></li>
+        <li class="nav__item"><a id="scrollAgenda" href="#">The Agenda</a></li>
+        <li class="nav__item"><a id="scrollSpeakers" href="#">The Speakers</a></li>
+        <li class="nav__item"><a id="scrollAbout" href="#">About Hedgeye</a></li>
       </ul>
     </div>
   </nav>
+  </header>
   <section class="panel--photo">
     <div class="container">
       <div class="panel__logo">
@@ -64,49 +68,73 @@
       </div>
       </div>
     </section>
-    <section class="panel">
+    <section id="agenda" class="panel">
       <div class="container">
         <div class="row">
         <h1 class="panel__title">The Agenda</h1>
         <ul class=" col-md-8 col-md-push-2 schedule">
+          <div class="row">
+          <div class="col-md-4">
           <li class="schedule__item">
             <span class="schedule__time">1<sup>PM</sup></span>
+          </div>
+          <div class="col-md-8 col-md-pull-1">
             <p class="schedule__info--header">Check In</p>
+            </div>
+          </div>
           </li>
+          <div class="row">
+          <div class="col-md-4">
           <li class="schedule__item">
             <span class="schedule__time">1:30 - 3<sup>PM</sup></span>
+          </div>
+          <div class="col-md-8 col-md-pull-1">
             <p class="schedule__info--header">Energy – Keith Barnett</p>
             <p class="schedule__info">What are the long term implications of US natural gas
               production on energy prices?
               What advantages and dislocations does US gas bring to the broader economy?
             </p>
+          </div>
+          </div>
           </li>
           <li class="schedule__item--break">
             <p> - Break and Refreshments - </p>
           </li>
+          <div class="row">
+          <div class="col-md-4">
           <li class="schedule__item">
-            <span class="schedule__time">3:15 - 4:45<sup>PM</sup></span>
+            <span class="schedule__time">3 - 4:45<sup>PM</sup></span>
+          </div>
+          <div class="col-md-8 col-md-pull-1">
             <p class="schedule__info--header">China – Stephen Roach vs Jim Chanos </p>
             <p class="schedule__info">
               We can all agree that growth is slowing in China, but what are the
               broader implications of this slowing?
             </p>
+          </div>
+          </div>
           </li>
           <li class="schedule__item--break">
             <p> - Break and Refreshments - </p>
           </li>
+          <div class="row">
+          <div class="col-md-4">
           <li class="schedule__item">
             <span class="schedule__time">5 - 6:30<sup>PM</sup></span>
+          </div>
+          <div class="col-md-8 col-md-pull-1">
             <p class="schedule__info--header">Demographics – Neil Howe</p>
             <p class="schedule__info">
               What’s the tail risk wagging the dog?
             </p>
+          </div>
+        </div>
           </li>
         </ul>
         </div>
       </div>
     </section>
-    <section class="panel--photo__speaker">
+    <section id="speakers" class="panel--photo__speaker">
       <button class="button--primary center-button">Resigter Now</button>
       <h1 class="panel__title--alt">The Speakers</h1>
       <div class="container">
@@ -124,7 +152,7 @@
              those companies in the areas of production, drilling, offshore platform design, natural gas
              marketing, fuel procurement, trading and structuring analytics, corporate strategy and fundamental
              analysis of energy markets.</p>
-            <p>Keithhas an engineering degree from Texas A&M University.</p>
+            <p class="speaker__info">Keithhas an engineering degree from Texas A&M University.</p>
             </div>
           </div>
         </div>
@@ -140,7 +168,7 @@
               He was formerly Chairman of Morgan Stanley Asia and the firm’s Chief Economist for
               the bulk of his 30-year career at Morgan Stanley, heading up a highly regarded team of
               economists around the world. </p>
-            <p>Roach’s current teaching and research program focuses on the impacts of Asia on the
+            <p class="speaker__info">Roach’s current teaching and research program focuses on the impacts of Asia on the
               broader global economy. At Yale, he has introduced new courses for undergraduates and
               graduate students on the “The Next China” and “The Lessons of Japan.” His writing and
               research also addresses globalization, trade policy, the post-crisis policy architecture,
@@ -161,7 +189,7 @@
               Coleco, Integrated Resources, Boston Chicken, Sunbeam, Conseco and Tyco International.
               His celebrated short-sale of Enron shares was dubbed by Barron's as "the market call of the
               decade, if not the past fifty years." </p>
-            <p>He is currently a lecturer in finance at the Yale University School of Management,
+            <p class="speaker__info">He is currently a lecturer in finance at the Yale University School of Management,
               Chanos, teaching a class on the history of financial fraud. Chanos received his B.A.
               in economics and political science in 1980 from Yale University.</p>
             </div>
@@ -179,7 +207,7 @@
               today’s generations. Howe is founder and president of the consulting firm LifeCourse Associates,
               where he develops and implements cutting-edge research, analysis, and consulting services to help
               clients understand how generations impact marketing, workforce issues, and strategic planning. </p>
-            <p>A historian, economist, and demographer, Howe is also a recognized authority on
+            <p class="speaker__info">A historian, economist, and demographer, Howe is also a recognized authority on
               global aging, long-term fiscal policy, and migration. He is a senior associate to the Center
               for Strategic and International Studies (CSIS) in Washington, D.C., where he helps direct the
                CSIS Global Aging Initiative. He received his B.A. at U.C. Berkeley and holds graduate degrees
@@ -201,7 +229,7 @@
         </blockquote>
       </div>
     </section>
-    <section class="panel">
+    <footer id="about" class="panel">
       <div class="container">
         <h1 class="panel__title">About Hedgeye</h1>
         <p class="panel__description">Hedgeye is a bold, trusted, no-excuses provider of actionable
@@ -216,7 +244,7 @@
             </div>
             <p class="panel__description--alt">SEE YOU THERE!</p>
       </div>
-    </section>
+    </footer>
   <script src="app.js"></script>
 </body>
 </html>

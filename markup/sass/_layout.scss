@@ -26,3 +26,76 @@ body{
   }
   text-align: center;
 }
+
+//quick responsive menu
+#mobile-menu{
+  display: none;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+//Small media changes to make it work on mobile
+@media only screen and (max-width : 640px) {
+  body{
+    margin-top: 42px; //42px == height of nav
+  }
+	#mobile-menu {
+		display:block;
+	}
+  nav ul{
+    display:none;
+  }
+
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 0;
+		top: 10px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+.nav__brand{
+  color: black;
+  padding: 0 !important;
+  margin: 0   !important;
+}
+.nav__item a{
+  color: black;
+}
+	nav:hover ul {
+		display: block;
+	}
+  .panel--photo{
+    text-align: center;
+  }
+  .panel__info{
+    width: 100% !important;
+  }
+  .pull-right{
+    float: none !important;
+  }
+  .right-text, .panel--photo__speaker{
+    text-align: center;
+  }
+  .speaker__avatar{
+    margin: 0 auto;
+  }
+  .avatar{
+    display: block;
+    margin: 0 auto;
+    position: static !important;
+    top: 0;
+
+  }
+}

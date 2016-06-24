@@ -134,6 +134,13 @@
   right: -300px;
 }
 
+//speaker module
+.speaker{
+  &__info{
+    font-weight: 100;
+  }
+}
+
 //Schedule Module
 .schedule{
   padding-bottom: 100px;
@@ -155,6 +162,7 @@
   }
   &__info{
     display: inline-block;
+    font-weight: 100;
     &--header{
       display: inline-block;
       font-weight: 700;
