@@ -1,28 +1,40 @@
 How many years of Web development experience do you have?
-
+I have three years of professional web development experience. Before that I
+was always a tinkerer and fascinated by web dev. Its why I enjoy the work I do
+so much.
 
 How many years of JavaScript experience do you have?
-
+Three years of JavaScript experience. I would say its my strongest programming
+language. I use it extensively both in the front and and back.
 
 How many years of HTML5 experience do you have?
-
+Three years of HTML5 experience. By the time I decided to follow my passion
+and do web development full time it was already the standard.
 
 How man years of CSS3 experience do you have?
-
+Same as above.
 
 How do you Ruby on Rails experience? If so, how many years?
-
+I have about 1.5 years of Rails experience. I know it pretty well and have
+worked at startups that are built of rails. Both on their front ends and back ends.
 
 What are your opinions on Agile software development?
-
+I have never worked in an Agile environment. However, reading online quickly
+about Agile development it seems to be a methodology that I could get behind.
 
 Do you have experience with Paper Prototyping? If so, how do you feel about it?
-
+Yes! I love it, I start most of my new projects on paper. In fact I just recently
+bought an awesome set of pens that have made prototyping on paper more of a joy.
+[http://inkwell.io/] if the good people at Hedgeye want to check it out :)
 
 What are you looking for in a job?
-
+I have been consulting for a long time. I am looking for a team that handles work
+that is both creative and challenging. I'm looking for a role that fits my skill set
+and ambition and one that I could grow in and become a better developer.
 
 Are you legal to work in the US?
-
+Yes
 
 When can you start?
+I am finishing up freelance work. This project should end in about 3 weeks. So
+anytime after that. 
