@@ -7,7 +7,7 @@ Implement a responsive landing page, that matches up the mobile mockups you crea
 * Use a sans serif font of your choice for the headings and body copy
 * Export Keith McCullough & speaker headshots to image assets 
 * Landing page copy is in this [document](https://docs.google.com/document/d/1X_KoNF_2KuX7igsc5Ra5-U09MLlGQfkkDCJz3bmg_44/edit)
-* Assets provided in provided_assets folder:
+* Assets provided in `provided_assets` folder:
 * Reference mockup image and PSD: desktop view
   * Hedgeye logo
   * Conference logo
