@@ -1,0 +1,354 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    transition: 0.5s ease;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.bold {
+    font-weight: bolder;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.container {
+    max-width: 992px;
+}
+
+.white {
+    color: #fff;
+}
+
+.gray {
+    color: #787878
+}
+
+.orange {
+    color: #da7911;
+}
+
+.orange-bg {
+    background: #da7911;
+    padding: 8px 16px;
+}
+
+.navbar-inverse {
+    background-color: #252729;
+    border-color: #252729;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    box-shadow: 0px 3px 0px 0px #fff;
+    padding-bottom: 13px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.hero-unit {
+    background: url('../image_assets/bg-top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    height: 100%;
+}
+
+.hero-unit .container {
+    max-width: 100%;
+}
+
+.hero-unit .container img {
+    background: #da7911;
+    max-width: 100%;
+}
+
+.hero-unit {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-unit .container h3 {
+    margin-bottom: 30px;
+}
+
+.hero-unit .container .col-xs-12:last-child .col-sm-2 {
+    border-right: 1px solid #fff;
+}
+
+.hero-unit .container .row:last-child h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blue-btn {
+    background: #339ef3;
+    color: #fff;
+    font-size: 21px;
+    box-shadow: 0px 10px 0px 0px #0e73c2;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.blue-btn:hover {
+    transition: 0.5s ease;
+}
+
+
+#conference, #agenda, #about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#conference h1.section-title,
+#agenda h1.section-title,
+#speakers h1.section-title,
+#about h1.section-title {
+    margin-bottom: 40px;
+}
+
+.keith-quote {
+    background: #252729;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.keith-quote p {
+    font-size: 14px;
+    text-align: right;
+}
+
+.keith-quote h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.headshot {
+    max-width: 150px;
+}
+
+.big-quote {
+    font-size: 120px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#agenda .row {
+    margin-bottom: 25px;
+}
+
+#agenda .gray {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#agenda h2 span {
+    vertical-align: top;
+    font-size: 21px;
+}
+
+#agenda p:first-child {
+    margin-top: 20px;
+}
+
+#agenda .blue-btn {
+    margin-top: 100px;
+    margin-bottom: -130px;
+}
+
+#agenda .col-sm-9 p {
+    margin-top: 20px;
+}
+
+#speakers {
+    background: url('../image_assets/bg-speakers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#speakers .row {
+    margin-bottom: 60px;
+}
+#speakers p.speaker-name {
+    font-size: 18px;
+}
+
+#speakers p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#speakers .blue-btn {
+    margin-bottom: -130px;
+}
+
+.jim-quote {
+    background: #252729;
+    padding-top: 60px;
+}
+
+.jim-quote p {
+    font-size: 14px;
+    text-align: right;
+}
+
+.jim-quote h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+#about .row:last-child p {
+    margin-top: 50px;
+}
+
+#about hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-top: 3px solid #d3d4d4;
+    width: 100px;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .keith-quote .headshot {
+        max-width: 150px;
+    }
+    .headshot {
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    br.rwd-br-2 {
+        display: none;
+    }
+    .hero-unit .container img {
+        margin-top: 65px;
+    }
+    .hero-unit .time-location:first-child {
+        border-right: 1px solid #fff;
+        margin-right: 40px;
+    }
+    .hero-unit .time-location {
+        width: 200px;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .hero-unit .time-location span {
+        font-size: 19px;
+    }
+    .blue-btn {
+        padding: 30px 90px;
+    }
+    #agenda .gray {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    br.rwd-br {
+        display: none;
+    }
+    .hero-unit .container img{
+        margin-top: 30px;
+    }
+    .hero-unit .container h1 {
+        font-size: 30px;
+    }
+    .hero-unit .time-location {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hero-unit .time-location span {
+        font-size: 17px;
+    }
+    .hero-unit .time-location:first-child {
+        border-right: none;
+    }
+    .blue-btn {
+        padding: 30px 60px;
+    }
+    .keith-quote .container > div:first-child,
+    .keith-quote .container > div:last-child {
+        text-align: center;
+    }
+    .keith-quote .container > div:first-child {
+        margin-bottom: -50px;
+    }
+    #agenda .gray {
+        text-align: left;
+    }
+    /*reverse order of headshot and †ext with flexbox*/
+    #speakers .container .row {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* optional */
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+    #speakers .row .col-sm-2 {
+        margin: auto;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    #speakers .row .col-sm-10 {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+    #speakers .row .col-sm-2 img {
+        width: 150px;
+    }
+    .jim-quote .container > div:first-child {
+        text-align: center;
+        margin-bottom: -50px;
+    }
+    #about a.orange-bg {
+        line-height: 50px;
+    }
+}
