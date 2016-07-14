@@ -1,28 +1,29 @@
 How many years of Web development experience do you have?
-
+3
 
 How many years of JavaScript experience do you have?
-
+3
 
 How many years of HTML5 experience do you have?
+4
 
-
-How man years of CSS3 experience do you have?
-
+How many years of CSS3 experience do you have?
+4
 
 How do you Ruby on Rails experience? If so, how many years?
-
+Is this question “Do you have Ruby on Rails experience?”, I have 2 years of Ruby on Rails experience.
 
 What are your opinions on Agile software development?
-
+I think there are pros and cons to Agile software development. It is flexible in regards to the scope of a project, but can allow for scope creep. It allows for continuous feedback and iterations to improve on and add features, but that can also mean documentation for new features may be less detailed. 
 
 Do you have experience with Paper Prototyping? If so, how do you feel about it?
-
+I have little experience with Paper Prototyping. I feel that it is beneficial because it helps with any potential problems before any code is written and it allows for quicker iterations. 
 
 What are you looking for in a job?
-
+I am looking for an opportunity to further hone my web development skills in a team of talented and professionals and to use those skills to contribute to society by helping to fill a need that people have.
 
 Are you legal to work in the US?
-
+Yes.
 
 When can you start?
+I would need at least a two week notice before I can start but am flexible if I am needed to start earlier.
