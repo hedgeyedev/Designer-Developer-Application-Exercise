@@ -1,0 +1,33 @@
+{
+  "name": "hedgeye-developer-application",
+  "version": "1.0.0",
+  "description": "an exersice for consideration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajhandler/Designer-Developer-Application-Exercise.git"
+  },
+  "author": "Alexander Handler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajhandler/Designer-Developer-Application-Exercise/issues"
+  },
+  "homepage": "https://github.com/Ajhandler/Designer-Developer-Application-Exercise#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.13.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "watchify": "^3.7.0"
+  }
+}

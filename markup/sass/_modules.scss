@@ -1,0 +1,177 @@
+// Nav Module
+.nav{
+  background-color: $alt-bg-color;
+  &__brand{
+    @extend %nav-item-base;
+    padding: 10px 60px 10px 0px;
+    font-size: 1.5em;
+  }
+  &__item{
+    @extend %nav-item-base;
+    font-weight: 100;
+    border-bottom: 0;
+
+    &--active{
+      @extend %nav-item-base;
+      border-bottom: 4px solid $main-font-color;
+      transition: width .25s;
+    }
+  }
+}
+//Panel Module
+.panel--photo{
+  @include full-background-photo("../img/bg-top.jpg", $alt-bg-color)
+  &__speaker{
+  @include full-background-photo("../img/bg-speakers.jpg", $alt-bg-color)
+  }
+}
+.panel{
+  &__byline{
+    text-transform: uppercase;
+    color: $main-font-color;
+    background-color: $text-highlight-lighten;
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  &__info{
+    width: 50%;
+    font-weight: 700;
+  }
+  &__lead{
+    font-size: 2em;
+  }
+  &__logo{
+    margin: 30px 0px;
+    img{
+      background-color: $text-highlight-bg;
+    }
+  }
+  &__date{
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    &:first-of-type{
+      border-right: 2px solid white;
+      padding-right: 20px;
+    }
+    span{
+      display: block
+    }
+  }
+  &__title{
+    color: $alt-font-color;
+    @extend %panel-title-base;
+    &--alt{
+      @extend %panel-title-base ;
+      color: $main-font-color;
+    }
+  }
+  &__description{
+    @extend %description-base;
+    color: $alt-font-color;
+    &--alt{
+      @extend %description-base;
+      font-weight: 700;
+      color: $text-highlight-bg;
+    }
+    .emphasis{
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+  &__quote{
+    text-align: left;
+    margin: 0;
+    position: relative;
+    padding: 50px 0px;
+    font-size: 1.2em;
+    font-weight: 100;
+    cite{
+      display: block;
+      font-size: .8em;
+      padding: 20px;
+      &:before{
+        content: "\2013";
+      }
+    }
+    &:before{
+      font-family: georgia;
+      content: open-quote;
+      font-size: 6em;
+      position: absolute;
+      left: -50px;
+      line-height: 1;
+    }
+  }
+}
+.panel--alt{
+  background-color: $alt-bg-color;
+}
+
+
+//button Module
+%button{
+  background-color:none;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 8px;
+
+}
+.button--primary{
+  @extend %button;
+  font-weight: 700;
+  margin: 20px 0px 50px 0px;
+  background-color: $button-primary;
+  color: $main-font-color;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 0px 0px rgba(13,114,193,1);
+}
+.avatar{
+  position: relative;
+  width: 200px;
+  top: -60px;
+  right: -300px;
+}
+
+//speaker module
+.speaker{
+  &__info{
+    font-weight: 100;
+  }
+}
+
+//Schedule Module
+.schedule{
+  padding-bottom: 100px;
+  color: $alt-font-color;
+  &__time{
+    color: $grey-font-color;
+    font-size: 1.5em;
+    sup{
+      font-weight: 100;
+    }
+  }
+  &__item{
+    color: $alt-font-color;
+    &--break{
+      text-align: center;
+      color: $text-highlight-bg;
+      text-transform: uppercase;
+    }
+  }
+  &__info{
+    display: inline-block;
+    font-weight: 100;
+    &--header{
+      display: inline-block;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: relative;
+      line-height: 0;
+      top: -0.55em;
+      font-size: 1.1em;
+    }
+  }
+
+}
