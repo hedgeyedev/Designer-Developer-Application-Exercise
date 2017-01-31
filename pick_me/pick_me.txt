@@ -1,0 +1,109 @@
+/*---------------------------------------
+| What makes Mireille Gallegos a
+| fantastic Front End Developer:
+|-----------------------------------------*/
+
+
+I really enjoy what I do. 
+
+I love web development and all the pieces that translate a static
+PSD into an interactive responsive piece of the internet. And I'm
+good at it. 
+
+I'll be happy to demonstrate why by sharing some examples from my
+development experience while making this demo site:
+
+First off, I am not a designer. You'll notice I did not create 
+mockups for a mobile design. However, I have a lot of experience
+creating responsive websites and by looking at the desktop design
+I knew how I wanted it to behave on mobile. I chose a fluid responsive
+layout that would look good on mobile but also on every screen size in
+between. All my font sizes are relative so that they show at an
+appropriate size for the screen. The quote and bio images always
+appear on the top on mobile for consistency instead of alternating
+as they do on desktop. 
+
+On the other hand, I do have basic knowledge of photoshop. I'm a
+big believer in doing as much with CSS as possible and there were
+a few times I had to edit the provided assets (I included my edited
+assets in the design/finished_assets folder). The first case was
+with the conference logos: the PNG files had white space built into 
+the image and I prefer to do that with padding so as to have better
+control and have it be as flexible as possible. The other case was with the
+headshots. When I was going to use them, they had a white distortion
+around the border which is a result of how it was exported/saved.
+I went into the PSD, got the full square image, saved it and made
+the circle effect myself using border-radius. Of course I also 
+relied heavily on the PSD to get font sizes, font weights and spacing.
+
+I consider myself a good problem solver who also likes to take
+initiative. While making this project I thought of a few features
+that were not requested but which would be reasonable additions.
+The first one I did implement which is the addition of a favicon.
+It's easy to overlook and not strictly necessary but I think it
+helps make the page unique and also offers additional branding. 
+In this case I used the H from the Hedgeye logo. The other addition
+I considered was to build the quotes/testimonials section to support 
+multiple quotes. I didn't want to stray too far from the specs so 
+I didn't implement it but ideally I would have a section where if
+there were multiple quotes there would be a carousel that would 
+be navigable and show one at a time. If there is only one quote,
+it would still be a carousel but with no visible controls and not
+navigable. All controls would be responsive of course. 
+
+I have a good founation but I'm always interested in learning more.
+
+I can definitely write/talk a lot about myself and my work. I hope 
+you take it as further evidence of how dedicated I am to best 
+practices and quality and how proud I am of my work. 
+
+
+Speaking of which, here are some projects I have done Front End for
+that are currently live:
+
+1. Nautica Watches: (http://nauticawatches.com)
+	Task: Create a WordPress website that features the Nautica brand 
+	of watches and which provides additional information not found
+	on the Nautica site where they can be purchased.
+
+2. Valparaiso Law (http://valpo.edu/law)
+	Task: Reskin the existing Valparaiso Law School WordPress website.
+
+3. Felicity House: (http://felicity-house.org)
+	Task: Create a website and blog using WordPress for this 
+	non-clinical program in New York that supports women with autism. 
+
+4. iMortgage: (http://imortgage.com)
+	Task: Reskin existing site; delivered front end code for 
+	iMortgage team to integrate.
+
+5. Logitech
+	Task: Create a series of landing pages and email blasts for web 
+	conferencing product, integrating code and assets into existing 
+	Marketo platform. Development environment must be flexible enough 
+	to support the creation and maintenance of variations of the
+	landing page for different countries/languages.
+	
+	http://info.logitech.com/group-conferencecam-en-us 
+	http://info.logitech.com/group-conferencecam-fr-fr 
+	http://info.logitech.com/group-conferencecam-de-de
+
+
+And in case you were curious, I use Sublime Text and especially the Emmet
+package which saves me a lot of typing using selector-like commands. 
+
+ex. 
+ul>(li>a{Item $})*3
+
+becomes:
+
+<ul>
+	<li><a href="">Item 1</a></li>
+	<li><a href="">Item 2</a></li>
+	<li><a href="">Item 3</a></li>
+</ul>
+
+Thank you for your time and consideration,
+Mireille Gallegos
+
+

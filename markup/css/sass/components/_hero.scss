@@ -1,0 +1,74 @@
+section.hero {
+	position: relative;
+	margin-top: $header-height;
+	background: url('../images/bg-top.jpg') center center no-repeat;
+	background-size: cover;
+	color: #fff;
+
+	@include break-sm {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+
+	h1 {
+		font-size: 1em;
+		margin-bottom: 2em;
+	}
+
+	.lead {
+		font-weight: bold;
+		font-size: 2.111em;
+		max-width: 460px;
+		line-height: 1.2;
+		margin-bottom: 1em;
+	}
+
+	//highlight override
+	.highlight-image {
+		background-color: $color-primary;
+		padding: 15px;
+	}
+
+	.highlight {
+		background-color: #ba6711;
+	}
+
+	//event info
+	.event-info-wrapper {
+		margin-bottom: 2.75em;
+
+		.event-info {
+			text-transform: uppercase;
+			font-weight: bold;
+			display: inline-block;
+
+			&:first-of-type {
+				padding-bottom: 1em;
+				display: block;
+			}
+
+			&:last-of-type {
+				padding-top: 1em;
+				display: inline-block;
+				border-top: 1px solid #fff;
+			}
+
+			@include break-sm {
+				&:first-of-type {
+					padding-bottom: 0;
+					padding-right: 2em;
+					display: inline-block;
+				}
+
+				&:last-of-type {
+					padding-top: 0;
+					padding-left: 2em;
+					display: inline-block;
+					border-top: none;
+					border-left: 1px solid #fff;
+				}
+			}
+		}// eof .event-info
+	} // eof .event-info-wrapper
+
+}
